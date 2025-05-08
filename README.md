@@ -1,3 +1,5 @@
+
+# all-MiniLM-L6-v2 
 - Pour vectoriser des phrases de manière efficace, nous utilisons le modèle pré-entraîné sentence-transformers/all-MiniLM-L6-v2, disponible sur Hugging Face. Ce modèle repose sur le principe du transfer learning, c’est-à-dire qu’il a été entraîné sur de vastes corpus de données textuelles générales, puis réutilisé dans notre cas sans devoir repartir de zéro. Il encode chaque phrase complète en un vecteur dense de 384 dimensions, capturant sa signification sémantique globale.
 - L’un des avantages majeurs de ce modèle est qu’il intègre automatiquement toutes les étapes de prétraitement (nettoyage, tokenisation, ajout de tokens spéciaux)
 - Les vecteurs ainsi obtenus permettent de représenter les relations contextuelles entre les mots, ce qui rend cette vectorisation particulièrement adaptée aux tâches de classification de texte, de recherche sémantique, ou encore de détection de similarité entre phrases.
